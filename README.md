@@ -19,6 +19,6 @@ Run api:
 $ yarn start
 ```
 
-To check documentation acess:
+To check documentation access:
 
 [http://localhost:8080/api-docs](http://localhost:8080/api-docs)
