@@ -22,3 +22,9 @@ $ yarn start
 To check documentation access:
 
 [http://localhost:8080/api-docs](http://localhost:8080/api-docs)
+
+To run testes:
+
+```sh
+$ yarn test
+```
