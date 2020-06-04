@@ -1,7 +1,6 @@
-const { Router } = require("express");
+import { Router, Request, Response } from 'express';
 
-const routes = Router();
-
+const routes: Router = Router();
 /**
  * @swagger
  * /hello-world:
@@ -24,9 +23,8 @@ const routes = Router();
  *      500:
  *        $ref: '#/components/responses/ServerError'
  */
-routes.get(
-  "/hello-world",
-  (req, res) => res.json({ message: `Hello ${req.query.name || 'World'}` })
-);
+routes.get('/hello-world', (request: Request, response: Response) => {
+  return response.json({ message: `Hello ${request.query.name || 'World'}` })
+});
 
-module.exports = routes
+export default routes;

@@ -1,5 +1,5 @@
-const request = require('supertest');
-const server = require('../src/server');
+import request from 'supertest';
+import server from '../src/server';
 
 test('It should say hello to Steave Job', async () => {
   const name = 'Steave Jobs';
