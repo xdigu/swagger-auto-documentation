@@ -1,6 +1,11 @@
+# Swagger Auto Documentation
+
 A simple api to study how to create a documentation with swagger-jsdoc and swagger-ui-express.
 
-To test this api irst clone this repository and enter it:
+[![CircleCI](https://circleci.com/gh/xdigu/swagger-auto-documentation/tree/master.svg?style=svg)](https://circleci.com/gh/xdigu/swagger-auto-documentation/tree/master)
+
+---
+## Example usage:
 
 ```sh
 $ git clone https://github.com/xdigu/swagger-auto-documentation
